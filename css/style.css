@@ -1,0 +1,78 @@
+* {
+    font-size: 11px;
+    text-align: center;
+    background-color: hsl(240, 100%, 95%)
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.general-box {
+    width: 240px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    background-color: #ffffff;
+    margin: 150px 50px 70px 50px;
+}
+
+.qrcode-box {
+    width: 215px;
+    height: 220px;
+    margin-top: 10px;
+    background-image: url(/images/image-qr-code.png);
+    background-size: cover;
+    border-radius: 10%;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.first-text {
+    display: flex;
+    margin: 20px 30px 0px 30px;
+    font-size: 15px;
+    font-weight: 700px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffffff;
+
+}
+
+.second-text {
+    font-size: 11px;
+    font-weight: 400;
+    color: hsl(0, 0%, 70%);
+    margin: 15px 30px 20px 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+
+.attribution {
+    visibility: hidden;
+}
+
+@media(max-width: 375px) {
+    .container{
+        margin-top: 155px;
+        display: flex;
+        height: 300px;
+    }
+    .general-box{
+        width: 390px;
+        height: 370px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+
+    }
+}
